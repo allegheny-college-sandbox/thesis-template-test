@@ -17,10 +17,15 @@ hierarchy and syntax; GitHub Actions will automatically create a PDF from the
 repository to learn how to properly build and release this PDFs.
 
 Including references throughout requires a specific pseudo-Markdown tag, demonstrated
-in the following blockquote. (Inspect the `proposal.md` file to see the format.)
+in the following blockquote. (Inspect the `thesis.md` file to see the format.)
 
 > A citation, when included correctly, will appear as it does at the end of this
 > sentence. [@plaat1996research]
+
+To label a figure (i.e. an image), referencing the image using correct Markdown
+will automatically caption the figure:
+
+> ![Label](images/IMAGE_NAME.png)
 
 Two things specific to this template to also keep in mind:
 
